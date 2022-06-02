@@ -8,7 +8,7 @@ var io = require('socket.io')(http);
 var mongoose = require('mongoose');
 const { stringify } = require('querystring');
 
-var dbUrl = 'mongodb+srv://web-service:groupassign@project-owtzo.mongodb.net/nodejs-practice?retryWrites=true&w=majority';
+var dbUrl = 'mongodb+srv://un:pw@project-owtzo.mongodb.net/db_name?retryWrites=true&w=majority';
 
 //adding static content
 app.use(express.static(__dirname));
